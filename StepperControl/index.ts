@@ -6,6 +6,7 @@ import * as ReactDOM from 'react-dom';
 import Stepper from './stepper';
 import Nonlinear from './nonlinear';
 import vertical from './vertical';
+import tutorital from './tutorital';
 
 
 class GetSteps {
@@ -81,7 +82,7 @@ export class StepperControl implements ComponentFramework.StandardControl<IInput
 			React.createElement(
 				React.Fragment,
 				null,
-				React.createElement( this._props.flowType== "Vertical" ? vertical : this._props.flowType== "NonLinear" ? Nonlinear : Stepper  , this._props)
+				React.createElement( this._props.flowType== "Vertical" ? tutorital : this._props.flowType== "NonLinear" ? Nonlinear : Stepper  , this._props)
 			),
 			this._container
 		); 

@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\stepper.pcfproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\stepper.pcfproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\stepper.pcfproj",
+        "projectName": "stepper",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\stepper.pcfproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.PowerApps.MSBuild.Pcf": {
+              "target": "Package",
+              "version": "[0.*, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

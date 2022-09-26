@@ -1,7 +1,18 @@
 {
     "extends": "./node_modules/pcf-scripts/tsconfig_base.json",
     "compilerOptions": {
-        "typeRoots": ["node_modules/@types"],
-        "jsx": "preserve"
-    }
+    "typeRoots": ["node_modules/@types"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["pages/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  }
 }

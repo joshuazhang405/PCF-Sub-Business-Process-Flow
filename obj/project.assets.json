@@ -2,34 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.2": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.3.4": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
-          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.6.2/win": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.3.4": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
-          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.6.2/win-x64": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.3.4": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
-          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.6.2/win-x86": {
-      "Microsoft.PowerApps.MSBuild.Pcf/0.3.4": {
+      "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -39,17 +12,18 @@
     }
   },
   "libraries": {
-    "Microsoft.PowerApps.MSBuild.Pcf/0.3.4": {
-      "sha512": "/v/QTsiz3E7Rrbc2tz+VY9GC5KsaEtZlTnSNdaRSb7EGR7/SiTCzFVlGHXReO9pX8dmKudxAId36/tu01Ea/Fg==",
+    "Microsoft.PowerApps.MSBuild.Pcf/0.4.3": {
+      "sha512": "w/nu1AVrY7ZsYrxaqFEVKXnNCUPJiTZ+p3DqBKx0jy10YtNTYuzdc2Nz1iiF70bgXuWGn7xo0LTcVA99gWXYsQ==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/0.3.4",
+      "path": "microsoft.powerapps.msbuild.pcf/0.4.3",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "3rdPartyNotice.txt",
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.0.3.4.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.0.4.3.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     }
@@ -60,53 +34,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Divya\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Practice\\CRM\\PCF\\stepper\\stepper.pcfproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\stepper.pcfproj",
       "projectName": "stepper",
-      "projectPath": "F:\\Practice\\CRM\\PCF\\stepper\\stepper.pcfproj",
-      "packagesPath": "C:\\Users\\Divya\\.nuget\\packages\\",
-      "outputPath": "F:\\Practice\\CRM\\PCF\\stepper\\obj\\",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\stepper.pcfproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Divya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net462"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net462": {
+          "targetAlias": "net462",
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
       "net462": {
+        "targetAlias": "net462",
         "dependencies": {
           "Microsoft.PowerApps.MSBuild.Pcf": {
             "target": "Package",
             "version": "[0.*, )"
           }
         }
-      }
-    },
-    "runtimes": {
-      "win": {
-        "#import": []
-      },
-      "win-x64": {
-        "#import": []
-      },
-      "win-x86": {
-        "#import": []
       }
     }
   }

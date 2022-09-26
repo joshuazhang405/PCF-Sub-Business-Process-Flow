@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m7AK1TmoBUheAo5aqVS+ipgB0eXqNOc1erIb5YVVbbZQYAQEzOsJWbY58B33AATCJEta2TE8d2o5Svshg4OZdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\PCF-Sub-Business-Process-Flow\\stepper.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\0.4.3\\microsoft.powerapps.msbuild.pcf.0.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}
